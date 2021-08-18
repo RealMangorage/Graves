@@ -1,0 +1,12 @@
+name: Graves
+version: ${project.version}
+main: me.mangorage.graves2.Graves2
+api-version: 1.16
+commands:
+  Graves:
+    description: /Graves <Menu/Help/Info>
+    usage: /<command>
+  CopyInv:
+    description: /Graves <Menu/Help/Info>
+    usage: /<command>
+depend: [Vault, NBTAPI, SmartInvs]
